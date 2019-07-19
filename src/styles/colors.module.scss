@@ -1,0 +1,17 @@
+@mixin primary {
+  color: #003bae;
+}
+
+@mixin danger {
+  color: #fc5442;
+}
+
+.danger {
+  color: #fc5442;
+}
+
+@mixin commonStyle{
+  html,body,a,p,span,ul,li,dl,dt,dd,h1,h2,h3,img{margin: 0;padding: 0;}
+  ul,li{list-style: none;}
+  a{text-decoration: none;}
+}

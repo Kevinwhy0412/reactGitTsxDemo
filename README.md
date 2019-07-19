@@ -1,2 +1,4 @@
-# reactTsxDemo
-学习使用react基础
+# How to Run
+
+1. `yarn`
+2. `npm start`

@@ -1,0 +1,27 @@
+@import '../../styles/colors.module.scss';
+
+.App {
+  .mysass{
+    $widther:500px;
+    $heighter:300px;
+
+    width:$widther;
+    height: $heighter;
+    background: #fc5442;
+    
+    .navul{
+      overflow: hidden;
+      li{
+        float: left;
+        width: 10vmax;
+        line-height: 30px;
+        text-align: center;
+        border:1px solid #fff;
+        cursor: pointer;
+      }
+    }
+    @include commonStyle
+  }
+}
+
+

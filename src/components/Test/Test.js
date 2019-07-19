@@ -1,7 +1,6 @@
 import React from 'react'
 
 class NameForm extends React.Component {
-
     handleSubmit = (event) => {
         alert('A name was submitted: ' + this.input.value);
         event.preventDefault();
